@@ -1,0 +1,27 @@
+section.container-fluid::before {
+  content: "";
+  height: 3.5rem;
+  display: block;
+  overflow: hidden;
+}
+.bg-img {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+}
+.bg-img1 {
+  background-image: url("./img/pexels-maxime-francis-2246476.jpg");
+}
+
+.bg-img2 {
+  background-image: url("./img/pexels-piccinng-3075993.jpg");
+}
+
+.bg-img3 {
+  background-image: url("./img/pexels-roberto-nickson-7698594.jpg");
+}
+
+footer li::before {
+  display: inline;
+  content: "- ";
+}
